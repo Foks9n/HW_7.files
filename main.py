@@ -1,3 +1,5 @@
+# Задание №1
+
 from pprint import pprint
 
 def cook_book():
@@ -17,6 +19,8 @@ def cook_book():
             cook_book[dish] = ingredients
     return cook_book    
 # pprint(cook_book(), sort_dicts=False)
+
+# Задание №2
 
 def get_shop_list_by_dishes(dishes, person_count):
     ing_list = {}
